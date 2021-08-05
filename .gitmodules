@@ -1,0 +1,3 @@
+[submodule "src/askgit"]
+	path = src/askgit
+	url = https://github.com/askgitdev/askgit.git
