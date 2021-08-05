@@ -1,0 +1,13 @@
+
+
+
+
+VENDOR = askgit/.build/libaskgit.so
+
+$(VENDOR) :
+	cd askgit && $(MAKE)
+	@cp $(VENDOR) $(SHLIB)
+
+.PHONY: all
+
+$(SHLIB) : $(VENDOR)

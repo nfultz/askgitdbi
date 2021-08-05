@@ -1,0 +1,14 @@
+Package: askgit
+Type: Package
+Title: DBI Interface to Git Repositories
+Version: 0.1.0
+Author: Patrick DeVivo <patrick.devivo@gmail.com>
+Maintainer: Neal Fultz <nfultz@gmail.com>
+Description: Ask Git provides a virtual table interface to git repositories, 
+  allowing easy quering via SQL.
+License: What license is it under?
+Encoding: UTF-8
+LazyData: true
+Imports: RSQLite
+SystemRequirements: golang, libgit2
+NeedsCompilation: True
